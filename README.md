@@ -13,6 +13,16 @@ A Godot plugin for Android that provides integration with Firebase Analytics.
 - **Firebase BOM:** `34.11.0`
 - **Godot:** `3.6.x` (Android plugin API v1)
 
+## Build Requirements
+
+To build this project, you need the Godot Android library (`.aar`).
+
+1. Download the **Android matching your Godot version** (e.g., Godot 3.6.2) from the [Godot Engine download page](https://godotengine.org/download/archive/).
+   - Specifically, you need the `godot-lib.x.y.z.stable.release.aar` file.
+2. Create a `libs` folder at `GodotFirebaseAnalytics/libs/`.
+3. Save the `.aar` file as:
+   `GodotFirebaseAnalytics/libs/godot-lib.3.6.2.stable.release.aar`
+
 ## Installation
 
 ### 1. Build the Plugin
