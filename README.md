@@ -8,6 +8,11 @@ A Godot plugin for Android that provides integration with Firebase Analytics.
 - Set User ID.
 - Set User Properties.
 
+## Versions
+
+- **Firebase BOM:** `34.11.0`
+- **Godot:** `3.6.x` (Android plugin API v1)
+
 ## Installation
 
 ### 1. Build the Plugin
@@ -53,7 +58,7 @@ func _on_button_pressed():
 ## API Reference
 
 ### `logEvent(name: String, params: Dictionary)`
-Logs an app event. The dictionary supports `String`, `Int`, and `Float` values.
+Logs an app event. The dictionary supports `String`, `Int`, `Long`, `Double`, `Float`, and `Boolean` values.
 
 ### `setUserId(id: String)`
 Sets the user ID for the current session.
