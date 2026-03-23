@@ -1,0 +1,4 @@
+[config]
+name="FirebaseAnalytics"
+binary_type="local"
+binary="GodotFirebaseAnalytics-release.aar"

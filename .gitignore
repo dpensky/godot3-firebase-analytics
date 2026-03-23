@@ -1,0 +1,47 @@
+# Built artifacts
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration
+local.properties
+
+# Signing files
+*.jks
+*.keystore
+*.p12
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+gradle-app.setting
+
+# User-specific stuff
+.navigation/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/caches/
+.idea/libraries/
+
+# Log files
+*.log
+
+# Godot specific
+.import/
+export_presets.cfg
+android/
+GodotFirebaseAnalytics/libs/
